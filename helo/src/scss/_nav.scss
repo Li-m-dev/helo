@@ -1,0 +1,38 @@
+.nav-bar {
+  padding-top: 30px;
+  width: 15vw;
+  min-height: 100vh;
+  top: 0;
+  position: fixed;
+  background: $bg-color;
+  box-shadow: 10px 0 20px 0 rgba(0, 0, 0, 0.1), 5px 0 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  .profile-img {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #333;
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .nav-img {
+    width: 40px;
+  }
+}

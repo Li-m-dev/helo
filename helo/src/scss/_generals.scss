@@ -1,0 +1,14 @@
+// .App {
+//   background: linear-gradient(to right, FF70A6, FF0770, FFD670, E0FF70);
+// }
+
+$bg-color: linear-gradient(99deg, #ff70a6, #ff9770 40%, #ffd670 73%, #e9ff70);
+
+body {
+  padding: 0;
+  margin: 0;
+  background: $bg-color;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
